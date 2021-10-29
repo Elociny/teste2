@@ -21,13 +21,19 @@ const Div = styled.div`
   .inp input {
       border: none;
       border-radius: 50px;
+      outline: none;
 
       padding: 10px 15px 10px 150px;
       margin: 0px 7px;
 
       background-color: #609FA3;
+      color: #d9d9d9;
 
       text-align: right
+  }
+
+  .inp input::placeholder {
+    color: #d9d9d9;
   }
 
   .botao button {
@@ -36,6 +42,8 @@ const Div = styled.div`
     border: none;
 
     background-color: #3C6E71;
+
+    cursor: pointer;
   }
 `;
 

@@ -13,7 +13,9 @@ export default function cabecalho() {
                     </div>
 
                     <div className="botao">
-                        <button>imagem</button>
+                        <button>
+                            imagem
+                        </button>
                     </div>
 
                     <div className="botao">
