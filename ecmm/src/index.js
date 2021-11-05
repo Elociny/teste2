@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Cabecalho from './components/commum/cabecalho/cabecalho';
 import reportWebVitals from './reportWebVitals';
+import RodaPe from './components/commum/rodaPe/rodaPe'
 
 ReactDOM.render(
   <React.StrictMode>
     <Cabecalho />
-    
+    <RodaPe />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
